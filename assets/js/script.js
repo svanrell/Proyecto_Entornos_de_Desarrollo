@@ -3,7 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const toSignup = document.getElementById('toSignup');
     const toLogin = document.getElementById('toLogin');
 
+toSignup.addEventListener('click', (e) => {
+        e.preventDefault();
+        container.classList.add('signup');
+    });
 
+    toLogin.addEventListener('click', (e) => {
+        e.preventDefault();
+        container.classList.remove('signup');
+    });
 
 
 
