@@ -36,7 +36,14 @@
                     grid.appendChild(card);
                 });
             });
-
+        let cartItems = 0;
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('buy-button')) {
+                cartItems++;
+                document.getElementById('cartCount').textContent = cartItems;
+                alert('Producto añadido al carrito! (Mock - Integra Stripe para pagos reales)');
+            }
+        });
     </script>
 </body>
 </html>
