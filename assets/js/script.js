@@ -13,6 +13,13 @@ toSignup.addEventListener('click', (e) => {
         container.classList.remove('signup');
     });
 
+document.getElementById('loginForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+        setTimeout(() => {
+            window.location.href = 'tienda.html';
+        }, 500);
+    });
+
 
 
 
