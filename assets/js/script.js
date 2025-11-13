@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('signupForm').addEventListener('submit', (e) => {
         e.preventDefault();
-        // Simula registro exitoso
         setTimeout(() => {
             window.location.href = 'tienda.html';
         }, 500);
