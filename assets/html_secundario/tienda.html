@@ -19,7 +19,24 @@
     <footer>
         <p>&copy; 2025 Tienda Mágica. Todos los derechos reservados. | <a href="index.html">Volver al Login</a></p>
     </footer>
+    <script>
+        fetch('https://fakestoreapi.com/products?limit=8')
+            .then(res => res.json())
+            .then(products => {
+                const grid = document.getElementById('productsGrid');
+                products.forEach(product => {
+                    const card = document.createElement('div');
+                    card.classList.add('product-card');
+                    card.innerHTML = `
+                        <img src="${product.image}" alt="${product.title}" class="product-img">
+                        <h3 class="product-title">${product.title}</h3>
+                        <p class="product-price">$${product.price}</p>
+                        <button class="buy-button" data-id="${product.id}">Comprar</button>
+                    `;
+                    grid.appendChild(card);
+                });
+            });
 
-
+    </script>
 </body>
 </html>
