@@ -1,4 +1,4 @@
-# Proyecto_Entornos_de_Desarrollo_Sergio-2
+# Proyecto_Entornos_de_Desarrollo
 ## Descripción
 Este proyecto es una aplicación web educativa desarrollada con HTML, CSS y JavaScript. Permite a los usuarios registrarse (Sign Up) e iniciar sesión (Login), y posteriormente acceder a una tienda con productos variados.  
 
