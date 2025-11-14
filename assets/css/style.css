@@ -65,7 +65,18 @@ body::before {
 .container.signup .slider {
     transform: translateX(-50%);
 }
+h2 {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    animation: fadeInDown 1s ease;
+}
 
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
 /*Estilos para la pagina de la tienda*/
 .store-body {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
