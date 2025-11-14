@@ -17,3 +17,16 @@ body {
     border-radius: 20px;
     position: relative;
 }
+.slider {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.store-body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
