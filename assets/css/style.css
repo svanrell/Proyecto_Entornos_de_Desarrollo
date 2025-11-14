@@ -34,6 +34,10 @@ body::before {
     border-radius: 20px;
     position: relative;
 }
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.4);
+}
 .slider {
     display: flex;
     width: 200%;
@@ -51,6 +55,9 @@ body::before {
     padding: 40px;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.9);
+}
+.login-panel {
+    background: linear-gradient(135deg, #fad0c4 0%, #ff9a9e 100%);
 }
 .signup-panel {
     background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
