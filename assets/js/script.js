@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 500);
         });
 
+        
     document.getElementById('signupForm').addEventListener('submit', (e) => {
         e.preventDefault();
         setTimeout(() => {
