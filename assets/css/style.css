@@ -8,6 +8,23 @@ body {
     background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
+    position: relative;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%);
+    opacity: 0.3;
+    animation: particles 30s linear infinite;
+    z-index: -1;
+}
+@keyframes particles {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    100% { transform: translate(-50px, -50px) rotate(360deg); }
 }
 .container {
     width: 350px;
