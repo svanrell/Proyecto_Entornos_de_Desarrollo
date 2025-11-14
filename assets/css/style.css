@@ -98,6 +98,14 @@ input:focus {
     border-color: #fecfef;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
+label {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    color: #fff;
+    transition: all 0.3s;
+    pointer-events: none;
+}
 /*Estilos para la pagina de la tienda*/
 .store-body {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
