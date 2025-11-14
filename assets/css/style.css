@@ -23,6 +23,26 @@ body {
     height: 100%;
     transition: transform 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
+
+.panel {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.9);
+}
+.signup-panel {
+    background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+}
+.container.signup .slider {
+    transform: translateX(-50%);
+}
+
+/*Estilos para la pagina de la tienda*/
 .store-body {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
     display: flex;
