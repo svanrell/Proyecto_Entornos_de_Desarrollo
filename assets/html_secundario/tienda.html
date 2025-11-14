@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Colorida</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body class="store-body">
+    <header class="store-header">
+        <h1>¡Bienvenido a Nuestra Tienda Mágica!</h1>
+        <p>Explora productos increíbles y coloridos. ¡Compra ahora!</p>
+    </header>
+    <section class="products-grid" id="productsGrid"></section>
+    <div class="cart" id="cart">🛒 <span id="cartCount">0</span></div>
+    <footer>
+        <p>&copy; 2025 Tienda Mágica. Todos los derechos reservados. | <a href="index.html">Volver al Login</a></p>
+    </footer>
+    <script>
+        fetch('https://fakestoreapi.com/products?limit=8')
+            .then(res => res.json())
+            .then(products => {
+                const grid = document.getElementById('productsGrid');
+                products.forEach(product => {
+                    const card = document.createElement('div');
+                    card.classList.add('product-card');
+                    card.innerHTML = `
+                        <img src="${product.image}" alt="${product.title}" class="product-img">
+                        <h3 class="product-title">${product.title}</h3>
+                        <p class="product-price">$${product.price}</p>
+                        <button class="buy-button" data-id="${product.id}">Comprar</button>
+                    `;
+                    grid.appendChild(card);
+                });
+            });
+        let cartItems = 0;
+        document.addEventListener('click', (e) => {
+            if (e.target.classList.contains('buy-button')) {
+                cartItems++;
+                document.getElementById('cartCount').textContent = cartItems;
+                alert('Producto añadido al carrito! (Mock - Integra Stripe para pagos reales)');
+            }
+        });
+    </script>
+</body>
+</html>
