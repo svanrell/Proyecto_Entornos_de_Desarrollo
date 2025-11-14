@@ -27,9 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'tienda.html';
         }, 500);
     });
-
-
-
-
-
 });
