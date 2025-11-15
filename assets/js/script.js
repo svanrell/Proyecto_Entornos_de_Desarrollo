@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('loginForm').addEventListener('submit', (e) => {
         e.preventDefault();
             setTimeout(() => {
-                window.location.href = 'tienda.html';
+                window.location.href = '../assets/html/tienda.html';
             }, 500);
         });
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('signupForm').addEventListener('submit', (e) => {
         e.preventDefault();
         setTimeout(() => {
-            window.location.href = 'tienda.html';
+            window.location.href = '../assets/html/tienda.html';
         }, 500);
     });
 });
