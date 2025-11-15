@@ -136,6 +136,16 @@ p {
     color: #fff;
     text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
+a {
+    color: #fecfef;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff4757;
+}
 /*Estilos para la pagina de la tienda*/
 .store-body {
     background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
@@ -188,4 +198,67 @@ p {
 
 .product-card:hover .product-img {
     transform: scale(1.05);
+}
+.product-title {
+    font-size: 22px;
+    margin: 20px 0 10px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+.buy-button {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #ff9a9e, #fecfef);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 5px 10px rgba(255, 106, 106, 0.3);
+}
+
+.buy-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #fecfef, #ff9a9e);
+}
+.cart {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff6b6b;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.cart:hover {
+    transform: scale(1.2);
+}
+footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
 }
