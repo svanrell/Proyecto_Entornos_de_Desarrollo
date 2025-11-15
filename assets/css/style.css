@@ -112,5 +112,16 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+.store-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease;
+}
+.store-header h1 {
+    font-size: 42px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
