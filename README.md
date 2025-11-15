@@ -53,5 +53,5 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
 - JavaScript  
 - Git / GitHub  
 - GitHub Pages  
-- IA para creación de imágenes, código en general  
+- IA para creación de imágenes, código en general y estructura del README.md 
 
