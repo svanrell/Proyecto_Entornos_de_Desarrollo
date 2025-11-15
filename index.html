@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login & Sign Up Animado</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="fav.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js"></script>
@@ -14,13 +15,13 @@
         <div class="slider">
             <div class="panel login-panel">
                 <h2>¡Bienvenido!</h2>
-                <form id="input-group">
+                <form id="loginForm">
                     <div class ="input-group">
-                        <input type="email" required>
+                        <input type="email" id="loginEmail" required>
                         <label>Email</label>
                     </div>
                     <div class="input-group">
-                        <input type="password" required>
+                        <input type="password" id ="loginPassword" required>
                         <label>Contraseña</label>
                     </div>
                         <button type="submit">Iniciar Sesión</button>
@@ -29,17 +30,17 @@
             </div>
                 <div class="panel signup-panel">
                     <h2>¡Crea tu Cuenta!</h2>
-                    <form id = "signup-Form">
+                    <form id = "signupForm">
                         <div class="input-group">
-                            <input type="text" required>
+                            <input type="text" id="signupName" required>
                             <label>Nombre</label>
                         </div>
                         <div class="input-group">
-                            <input type="email" required>
+                            <input type="email" id="signupEmail" required>
                             <label>Email</label>
                         </div>
                         <div class="input-group">
-                            <input type="password" required>
+                            <input type="password" id="signupPassword" required>
                             <label>Contraseña</label> 
                         </div>
                         <button type="submit">Registrarse</button>
