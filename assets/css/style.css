@@ -241,3 +241,24 @@ a:hover {
 .cart:hover {
     transform: scale(1.2);
 }
+footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    padding: 20px;
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+}
