@@ -30,7 +30,7 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - Media Queries: adaptación del diseño a pantallas pequeñas (@media (max-width: 768px)).
   - Hover effects: interactividad en botones y tarjetas de productos (transformaciones y sombras dinámicas).
     
-## Experiencia trabajando con Git por Allandryo
+## Experiencia trabajando con Git
 - Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural.
    
   - Aprendizaje inicial: Al principio fue un reto comprender cómo funcionaban los commits, los merges y los conflictos.  
@@ -40,21 +40,21 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
 
 ## Funcionalidades implementadas por Sergio S
   - **Página de Login y Registro (`index.html`):**  
-    -Muestra una interfaz animada con dos paneles: uno para iniciar sesión y otro para registrarse.
-    -Incluye un slider que permite cambiar entre el formulario de Login y el de Registro mediante animación.
-    -Cada formulario contiene campos con etiquetas flotantes para Email, Contraseña y Nombre (en el caso de registro).
-    -Usa Firebase Authentication (`firebase-auth.js`) para gestionar:
-      -Inicio de sesión de usuarios.
-      -Registro de nuevas cuentas.
-    -Incluye un favicon (`fav.ico`) enlazado desde el encabezado del documento.
-    -Utiliza la fuente Poppins importada desde Google Fonts.
-    -El archivo `script.js` maneja:
-      -El cambio visual entre Login y Registro.
-      -El envío de los formularios al backend de Firebase.
-    -El diseño visual se encuentra en styles.css, que controla:
-      -La animación del slider.
-      -Colores, posiciones y efectos de los elementos.
-      -Estilizado de campos, botones y paneles.
+    - Muestra una interfaz animada con dos paneles: uno para iniciar sesión y otro para registrarse.
+    - Incluye un slider que permite cambiar entre el formulario de Login y el de Registro con el uso de una animación.
+    - Cada formulario contiene campos con etiquetas flotantes para Email, Contraseña y Nombre (en el caso de registro).
+    - Usa Firebase Authentication (`firebase-auth.js`) para gestionar:
+      - Inicio de sesión de usuarios.
+      - Registro de nuevas cuentas.
+    - Incluye un favicon (`fav.ico`) enlazado desde el encabezado del documento.
+    - Utiliza la fuente Poppins importada desde Google Fonts.
+    - El archivo `script.js` maneja:
+      - El cambio visual entre Login y Registro.
+      - El envío de los formularios al backend de Firebase.
+    - El diseño visual se encuentra en styles.css, que controla:
+      - La animación del slider.
+      - Colores, posiciones y efectos de los elementos.
+      - Estilizado de campos, botones y paneles.
 
     
 ## Ciclo de Vida del Desarrollo del Software
