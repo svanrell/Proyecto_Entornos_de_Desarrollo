@@ -29,6 +29,25 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - Mejora progresiva: Con la práctica, el uso de pull, push y merge se volvió más automático y eficiente.  
   - Trabajo en equipo: Git permitió mantener un flujo organizado entre los integrantes, evitando sobrescribir cambios y facilitando la colaboración. 
   - Beneficio principal: La experiencia me ayudó a trabajar de manera más profesional, entendiendo la importancia del control de versiones en proyectos reales.
+
+## Funcionalidades implementadas por Sergio S
+  - **Página de Login y Registro (`index.html`):**  
+    -Muestra una interfaz animada con dos paneles: uno para iniciar sesión y otro para registrarse.
+    -Incluye un slider que permite cambiar entre el formulario de Login y el de Registro mediante animación.
+    -Cada formulario contiene campos con etiquetas flotantes para Email, Contraseña y Nombre (en el caso de registro).
+    -Usa Firebase Authentication (`firebase-auth.js`) para gestionar:
+      -Inicio de sesión de usuarios.
+      -Registro de nuevas cuentas.
+    -Incluye un favicon (`fav.ico`) enlazado desde el encabezado del documento.
+    -Utiliza la fuente Poppins importada desde Google Fonts.
+    -El archivo `script.js` maneja:
+      -El cambio visual entre Login y Registro.
+      -El envío de los formularios al backend de Firebase.
+    -El diseño visual se encuentra en styles.css, que controla:
+      -La animación del slider.
+      -Colores, posiciones y efectos de los elementos.
+      -Estilizado de campos, botones y paneles.
+
     
 ## Ciclo de Vida del Desarrollo del Software
 
