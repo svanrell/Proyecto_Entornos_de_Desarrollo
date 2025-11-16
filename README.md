@@ -23,12 +23,12 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - Al principio el manejo de Git y la estructura me resultaba confuso, pero ahora el proceso de añadir, sincronizar y fusionar cambios se ha vuelto mucho más automático y natural.
      
 ## Experiencia trabajando con Git
-- **Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural. 
+- Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural. 
   - Aprendizaje inicial: Al principio fue un reto comprender cómo funcionaban los commits, los merges y los conflictos.  
   - Mejora progresiva: Con la práctica, el uso de pull, push y merge se volvió más automático y eficiente.  
   - Trabajo en equipo: Git permitió mantener un flujo organizado entre los integrantes, evitando sobrescribir cambios y facilitando la colaboración. 
   - Beneficio principal: La experiencia me ayudó a trabajar de manera más profesional, entendiendo la importancia del control de versiones en proyectos reales.
-  - 
+    
 ## Ciclo de Vida del Desarrollo del Software
 
 ### Planificación
