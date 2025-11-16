@@ -22,6 +22,23 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - El flujo de trabajo con Git fue: hacer **pull** y **sync** al añadir funcionalidades importantes, verificar que todo funcionara correctamente, y luego hacer **merge** a la rama `main`.  
   - Al principio el manejo de Git y la estructura me resultaba confuso, pero ahora el proceso de añadir, sincronizar y fusionar cambios se ha vuelto mucho más automático y natural.  
 
+## Funcionalidades implementadas por Sergio S
+  - **Página de Login y Registro (`index.html`):**  
+    -Muestra una interfaz animada con dos paneles: uno para iniciar sesión y otro para registrarse.
+    -Incluye un slider que permite cambiar entre el formulario de Login y el de Registro mediante animación.
+    -Cada formulario contiene campos con etiquetas flotantes para Email, Contraseña y Nombre (en el caso de registro).
+    -Usa Firebase Authentication (`firebase-auth.js`) para gestionar:
+      -Inicio de sesión de usuarios.
+      -Registro de nuevas cuentas.
+    -Incluye un favicon (`fav.ico`) enlazado desde el encabezado del documento.
+    -Utiliza la fuente Poppins importada desde Google Fonts.
+    -El archivo `script.js` maneja:
+      -El cambio visual entre Login y Registro.
+      -El envío de los formularios al backend de Firebase.
+    -El diseño visual se encuentra en styles.css, que controla:
+      -La animación del slider.
+      -Colores, posiciones y efectos de los elementos.
+      -Estilizado de campos, botones y paneles.
 ## Ciclo de Vida del Desarrollo del Software
 
 ### Planificación
