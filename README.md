@@ -5,8 +5,8 @@ Este proyecto es una aplicación web educativa desarrollada con HTML, CSS y Java
 El proyecto tiene como objetivo principal aprender a trabajar de manera organizada y profesional con Git y GitHub, así como practicar la estructura y navegación de proyectos web.  
 
 ## Autores
-- Sergio  
-- Sergio  
+- Sergi V
+- Sergio S
 - Allandryo  
 
 ## Funcionalidades implementadas por Sergi V
@@ -29,14 +29,6 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - Flexbox y Grid: organización responsiva de elementos (display: flex, display: grid).
   - Media Queries: adaptación del diseño a pantallas pequeñas (@media (max-width: 768px)).
   - Hover effects: interactividad en botones y tarjetas de productos (transformaciones y sombras dinámicas).
-    
-## Experiencia trabajando con Git
-- Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural.
-   
-  - Aprendizaje inicial: Al principio fue un reto comprender cómo funcionaban los commits, los merges y los conflictos.  
-  - Mejora progresiva: Con la práctica, el uso de pull, push y merge se volvió más automático y eficiente.  
-  - Trabajo en equipo: Git permitió mantener un flujo organizado entre los integrantes, evitando sobrescribir cambios y facilitando la colaboración. 
-  - Beneficio principal: La experiencia me ayudó a trabajar de manera más profesional, entendiendo la importancia del control de versiones en proyectos reales.
 
 ## Funcionalidades implementadas por Sergio S
   - **Página de Login y Registro (`index.html`):**  
@@ -56,7 +48,14 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
       - Colores, posiciones y efectos de los elementos.
       - Estilizado de campos, botones y paneles.
 
-    
+## Experiencia trabajando con Git
+- Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural.
+   
+  - Aprendizaje inicial: Al principio fue un reto comprender cómo funcionaban los commits, los merges y los conflictos.  
+  - Mejora progresiva: Con la práctica, el uso de pull, push y merge se volvió más automático y eficiente.  
+  - Trabajo en equipo: Git permitió mantener un flujo organizado entre los integrantes, evitando sobrescribir cambios y facilitando la colaboración. 
+  - Beneficio principal: La experiencia me ayudó a trabajar de manera más profesional, entendiendo la importancia del control de versiones en proyectos reales.
+  
 ## Ciclo de Vida del Desarrollo del Software
 
 ### Planificación
