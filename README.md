@@ -21,7 +21,15 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - Redirige automáticamente a `tienda.html` al enviar los formularios de login o registro.  
   - El flujo de trabajo con Git fue: hacer **pull** y **sync** al añadir funcionalidades importantes, verificar que todo funcionara correctamente, y luego hacer **merge** a la rama `main`.  
   - Al principio el manejo de Git y la estructura me resultaba confuso, pero ahora el proceso de añadir, sincronizar y fusionar cambios se ha vuelto mucho más automático y natural.
-     
+    
+ ## Funcionalidades implementadas por Allandryo
+- **Se aplicaron estilos avanzados mediante CSS para mejorar el estilo visual**  
+  - Gradientes lineales y radiales: fondos dinámicos con transiciones de color (linear-gradient, radial-gradient).  
+  - Animaciones con @keyframes: efectos como partículas en movimiento y transiciones suaves (fadeInDown, particles). 
+  - Flexbox y Grid: organización responsiva de elementos (display: flex, display: grid).
+  - Media Queries: adaptación del diseño a pantallas pequeñas (@media (max-width: 768px)).
+  - Hover effects: interactividad en botones y tarjetas de productos (transformaciones y sombras dinámicas).
+    
 ## Experiencia trabajando con Git por Allandryo
 - Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural.
    
