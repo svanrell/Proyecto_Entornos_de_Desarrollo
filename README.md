@@ -22,7 +22,7 @@ El proyecto tiene como objetivo principal aprender a trabajar de manera organiza
   - El flujo de trabajo con Git fue: hacer **pull** y **sync** al añadir funcionalidades importantes, verificar que todo funcionara correctamente, y luego hacer **merge** a la rama `main`.  
   - Al principio el manejo de Git y la estructura me resultaba confuso, pero ahora el proceso de añadir, sincronizar y fusionar cambios se ha vuelto mucho más automático y natural.
      
-## Experiencia trabajando con Git
+## Experiencia trabajando con Git por Allandryo
 - Trabajar con Git ha sido una parte fundamental del proyecto. Al inicio resultaba confuso entender el flujo de ramas y la sincronización con GitHub, pero poco a poco el proceso se volvió más natural.
    
   - Aprendizaje inicial: Al principio fue un reto comprender cómo funcionaban los commits, los merges y los conflictos.  
